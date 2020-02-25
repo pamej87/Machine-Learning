@@ -24,7 +24,7 @@ Con este modelo se pretende predecir el color del vino
 Modelo ganador: RANDOM FOREST CLASSIFIER 
 
 Todos los modelos dan métricas realmente buenas. RFC es más robusto por muy poca diferencia. Obtenemos métricas realmente buenas:
-----------+---------------+----------------+---------------+
+
 |  Métricas | Reg.Logística | Arbol Decisión | Random Forest |
 +-----------+---------------+----------------+---------------+
 |  Accuracy |     99.31     |     98.18      |     99.37     |
