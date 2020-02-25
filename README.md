@@ -1,6 +1,5 @@
 # Machine-Learning
-Machine learning models applied to different problems
-
+Modelos de clasificación y regresión
 
 # Análisis de sentimientos
 La SVM es el modelo con mejores métricas entre todos los modelos probados, este modelo tampoco sobreajusta (80.78 en train y 80.37 en test). Garantizando que sabe generalizar en las predicciones.
