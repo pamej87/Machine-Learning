@@ -25,9 +25,7 @@ Modelo ganador: RANDOM FOREST CLASSIFIER
 
 Todos los modelos dan métricas realmente buenas. RFC es más robusto por muy poca diferencia. Obtenemos métricas realmente buenas:
 
-|  Métricas | Reg.Logística | Arbol Decisión | Random Forest |
-+-----------+---------------+----------------+---------------+
-|  Accuracy |     99.31     |     98.18      |     99.37     |
-|   Recall  |     99.59     |     99.01      |     99.83     |
-| Precision |      99.5     |      98.6      |     99.34     |
+Accuracy : 99.37   
+Recall  : 99.83       
+Precision : 99.34      
 
