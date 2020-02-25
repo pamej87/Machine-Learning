@@ -3,11 +3,10 @@
 
 # <i style= 'color: green; font-size:1.5em'> Pamela Jaramillo
 # <!---line--->
-# <i style= 'color: green; font-size:1em'> Práctica 2
 
 # # Ejercicio de machine learning: clasificación y regresión vinícola
 
-# En este ejercicio (mucho menos guiado que los anteriores) vas a tener dos objetivos. Para ello, utilizarás un dataset sobre distintos vinos con sus características (como pueden ser la acidez, densidad...). Tendrás que generar, entrenar, validar y testear modelos tanto de clasificación como de regresión.
+# Dataset sobre distintos vinos con sus características (como pueden ser la acidez, densidad...). 
 # 
 # El dataset proviene de la Universdad de Minho, generado por [P. Cortez](http://www3.dsi.uminho.pt/pcortez/Home.html) et al. Dicho dataset se encuentra en el [*UC Irvine Machine Learning Repository*](https://archive.ics.uci.edu/ml/index.html) ([aquí](https://archive.ics.uci.edu/ml/datasets/Wine+Quality) está disponible; pero debes usar la versión adjunta en la misma carpeta que este documento). Adjunto la descripción del dataset:
 # 
@@ -86,17 +85,14 @@
 # 8. Missing Attribute Values: None
 # ```
 
-# Además de las 12 variables descritas, el dataset que utilizarás tiene otra: si el vino es blanco o rojo. Dicho esto, los objetivos son:
+# Además de las 12 variables descritas, el dataset a utilizar tiene otra: si el vino es blanco o rojo. Dicho esto, los objetivos son:
 # 
-# 1. Separar el dataset en training (+ validación si no vas a hacer validación cruzada) y testing, haciendo antes (o después) las transformaciones de los datos que consideres oportunas, así como selección de variables, reducción de dimensionalidad... Puede que decidas usar los datos tal cual vienen también...
-# 2. Hacer un modelo capaz de clasificar lo mejor posible si un vino es blanco o rojo a partir del resto de variables (vas a ver que está chupado conseguir un muy buen resultado).
+# 1. Separar el dataset en training y testing, con las transformaciones que se han considerado oportunas, así como selección de variables, reducción de dimensionalidad... 
+# 2. Hacer un modelo capaz de clasificar lo mejor posible si un vino es blanco o rojo a partir del resto de variables.
 # 3. Hacer un modelo regresor que prediga lo mejor posible la calidad de los vinos.
 # 
 # El fichero csv a utilizar `winequality.csv` tiene las cabeceras de cuál es cada variable, y los datos están separados por punto y coma.
-# 
-# Siéntete libre de hacer todo el análisis exploratorio y estadístico (así como gráficos) que quieras antes de lanzarte a hacer modelos.
-# 
-# Y nada más. ¡Ánimo!
+
 
 # In[1]:
 
