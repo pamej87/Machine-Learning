@@ -2,7 +2,7 @@
 Machine learning models applied to different problems
 
 
-# Analisis de sentimientos
+# Análisis de sentimientos
 La SVM es el modelo con mejores métricas entre todos los modelos probados, este modelo tampoco sobreajusta (80.78 en train y 80.37 en test). Garantizando que sabe generalizar en las predicciones.
 
 El modelo más robusto que hemos probado para este caso es es una SVM Lineal. Este modelo ha sido el que mejor accuracy nos ha dado con un 80,37%. 
